@@ -1,0 +1,155 @@
+.home-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width:80%;
+      max-height: 90%;
+    }
+  
+    h1 {
+      color: #fff;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+  
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+        animation: fadeIn 1s 0.7s backwards;
+
+      }
+  
+      &:after {
+        content: '</h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 0.7s backwards;
+        opacity: 0.6;
+      }
+  
+      img {
+        margin-bottom: -36px;
+        margin-right: -9px;
+        margin-left: 4px;
+        opacity: 0;
+        width: 72px;
+        height: 128px;
+        animation: rotateIn 1s linear both;
+        animation-delay: 0.7s;
+        margin-top: -50px;
+      }
+    }
+
+    h2{
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1s backwards;
+    }
+
+    .flat-button{
+        color:#ffd700;
+        font-size: 13px;
+        font-weight: 400px;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffd700;
+            color: #333;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px){
+  .text-zone{
+    margin-left: 25px;
+    h1{
+      font-size: 34px;
+
+      &::before, &::after{
+        display: none ;
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1280px){
+  .text-zone{
+    padding-left: 34px;
+    font-size: large;
+
+    h1 {
+      font-size: 46px;
+      line-height: 48px;
+    
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .flat-button{
+    font-size: 14px;
+  }
+  
+  }}
+
+
+  @media screen and (min-width: 1920px){
+    .text-zone{
+      padding-left: 40px;
+
+      h1{
+        font-size: 78px;
+        line-height: 74px;
+
+        &:before{
+          font-size: 34px;
+        }
+
+        &:after{
+          font-size: 34px;
+        }
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      .flat-button{
+        font-size: 22px;
+      }
+
+    }}
+  
