@@ -42,7 +42,7 @@
       }
   
       img {
-        margin-bottom: -36px;
+        margin-bottom: -37px;
         margin-right: -9px;
         margin-left: 4px;
         opacity: 0;
@@ -50,7 +50,7 @@
         height: 128px;
         animation: rotateIn 1s linear both;
         animation-delay: 0.7s;
-        margin-top: -50px;
+        margin-top: -51px;
       }
     }
 
@@ -90,7 +90,7 @@
   .text-zone{
     margin-left: 25px;
     h1{
-      font-size: 34px;
+      font-size: 33px;
 
       &::before, &::after{
         display: none ;
@@ -99,9 +99,6 @@
   }
   
 }
-
-
-
 
 
 @media screen and (min-width: 1280px){

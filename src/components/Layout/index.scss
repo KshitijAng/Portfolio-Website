@@ -48,8 +48,8 @@
 .about-page {
   .text-zone {
     position: absolute;
-    left: 15%;
-    top: 48%;
+    left: 12%;
+    top: 50.5%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;
@@ -297,29 +297,16 @@
 
 
 
-@media screen and (max-width:800px){
-  .contact-page{
-    h1{
-      padding-left: 44px;
-    }
-  }
-  
-}
+
 
 @media screen and (max-width: 800px) {
   .contact-page {
     .text-zone {
-      width: 55%;
       h1 {
-        font-size: 28px;
+      font-size: 28px !important;
+       padding-left: 40px;
         top: 26px;
-        left: 42px;
-
-        &::before {
-          display: none;
-        }
-
-        &::after {
+        &::before, &::after {
           display: none;
         }
       }
@@ -334,16 +321,13 @@
       h1 {
         font-size: 32px;
         top: 30px;
-        left: 20px;
+        left: 30px;
 
 
-        &::before {
+        &::before, &::after {
           display: none;
         }
 
-        &::after {
-          display: none;
-        }
       }
     }
   }
@@ -359,6 +343,9 @@
         font-size: 30px;
         top: 12px;
         left: 8px;
+        &::before, &::after {
+          display: none;
+        }
       }
 
       p {

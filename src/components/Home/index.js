@@ -38,7 +38,7 @@ useEffect(() => {
             <br />
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={17} />
             </h1>
-            <h2> Frotend Developer / Javascript</h2>
+            <h2> Frontend Developer / Javascript / Microsoft AI-900</h2>
             <Link to="/contact" className="flat-button">CONTACT ME</Link>
         </div>
         <Logo />

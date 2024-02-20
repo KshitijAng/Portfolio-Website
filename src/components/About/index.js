@@ -28,7 +28,7 @@ const About = () => {
           </h1>
           <p>
             Hi! I am Kshitij Angurala (Kshitij A.) and I am currently pursuing
-            B.Tech CSE (Hons.) in UPES, Dehradun. Through self
+            B.Tech Computer Science and Engineering (Hons.) from UPES, Dehradun. Through self
             learning, I have worked on my coding skills and got achievement in
             the form of various projects that I have completed.
             </p><p>
@@ -37,7 +37,7 @@ const About = () => {
             improving my expertise every day.
           </p>
 
-          <p>Skills: Python, HTML, CSS, JavaScript,C, React.JS, SQL</p>
+          <p><b>Skills:</b> Python, HTML, CSS, JavaScript, C, React.JS, SQL</p>
           
         </div>
       </div>
@@ -53,7 +53,7 @@ const About = () => {
           </h1>
           <ul>
             <li>
-              <a href="/"> Portfolio Website (February 2024) </a>{' '}
+              <a href="https://github.com/KshitijAng/Portfolio-Website"> Portfolio Website (February 2024) </a>{' '}
             </li>
             <li>
               <a href="https://github.com/KshitijAng/AI-Chatbot-using-OpenAI"> AI Chatbot using Python and OpenAI (January 2024) </a>{' '}
@@ -62,7 +62,7 @@ const About = () => {
               <a href="https://github.com/KshitijAng/MERN-Stack-MyBlog"> MyBlog MERN Application (August 2023) </a>{' '}
             </li>
             <li>
-              <a href="https://github.com/KshitijAng/Hotstar-Frontend-Clone"> Disney+ Hotstar Frontend Clone (July 2023)</a>
+              <a href="https://github.com/KshitijAng/Hotstar-Frontend-Clone"> Disney+ Hotstar Frontend Clone (July 2023)</a>{' '}
             </li>
           </ul>
         </div>
